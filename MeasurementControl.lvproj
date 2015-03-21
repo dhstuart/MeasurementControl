@@ -16,6 +16,7 @@
 		<Item Name="AvaSpec Control.vi" Type="VI" URL="../AvaSpec Control.vi"/>
 		<Item Name="MeasurementControl - Main.vi" Type="VI" URL="../MeasurementControl - Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="Color Parameters.ctl" Type="VI" URL="../Color Parameters.ctl"/>
 			<Item Name="Sphere Indicator.ctl" Type="VI" URL="../../avantesSpectrometer/Acquisition/Sphere Indicator.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
