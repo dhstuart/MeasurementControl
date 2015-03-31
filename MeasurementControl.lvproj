@@ -22,6 +22,8 @@
 		<Item Name="Color Parameters.ctl" Type="VI" URL="../Color Parameters.ctl"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer/Timer.vi"/>
 		<Item Name="Timer Command Control.ctl" Type="VI" URL="../Timer/Timer Command Control.ctl"/>
+		<Item Name="Yokogawa Control.vi" Type="VI" URL="../Yokogawa Control.vi"/>
+		<Item Name="Cal Inst Control.vi" Type="VI" URL="../Cal Inst Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
