@@ -18,6 +18,7 @@
 		<Item Name="Cal Inst.lvlib" Type="Library" URL="../../CaliforniaInstrumentsIxSeries/Cal Inst.lvlib"/>
 		<Item Name="Yokogawa.lvlib" Type="Library" URL="../../YokogawaPZ4000/Yokogawa.lvlib"/>
 		<Item Name="Metadata.lvlib" Type="Library" URL="../controls/Metadata.lvlib"/>
+		<Item Name="AvaSpec.lvlib" Type="Library" URL="../../avantesSpectrometer/AvaSpec.lvlib"/>
 		<Item Name="AvaSpec Control.vi" Type="VI" URL="../AvaSpec Control.vi"/>
 		<Item Name="Color Parameters.ctl" Type="VI" URL="../Color Parameters.ctl"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer/Timer.vi"/>
@@ -124,7 +125,8 @@
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="AvaSpec.lvlib" Type="Library" URL="../../avantesSpectrometer/AvaSpec.lvlib"/>
+			<Item Name="IRRAD input parameters.ctl" Type="VI" URL="../../avantesSpectrometer/IRRAD input parameters.ctl"/>
+			<Item Name="AVSirrad.dll" Type="Document" URL="../../../../../../AVSIRRAD/Examples/Labview/build/AVSirrad.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
