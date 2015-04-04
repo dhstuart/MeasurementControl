@@ -25,6 +25,9 @@
 		<Item Name="Timer Command Control.ctl" Type="VI" URL="../Timer/Timer Command Control.ctl"/>
 		<Item Name="Yokogawa Control.vi" Type="VI" URL="../Yokogawa Control.vi"/>
 		<Item Name="Cal Inst Control.vi" Type="VI" URL="../Cal Inst Control.vi"/>
+		<Item Name="LM79 Stabilization.vi" Type="VI" URL="../LM79 Stabilization.vi"/>
+		<Item Name="Stabilization Naked Sphere FGV.vi" Type="VI" URL="../Stabilization Naked Sphere FGV.vi"/>
+		<Item Name="Stabilization Insulated Sphere FGV.vi" Type="VI" URL="../Stabilization Insulated Sphere FGV.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -127,6 +130,7 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="IRRAD input parameters.ctl" Type="VI" URL="../../avantesSpectrometer/IRRAD input parameters.ctl"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../../../../../../AVSIRRAD/Examples/Labview/build/AVSirrad.dll"/>
+			<Item Name="Stabilization.ctl" Type="VI" URL="../../MR 16 teardown/MR16TestStandDAQ/Controls/Stabilization.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
