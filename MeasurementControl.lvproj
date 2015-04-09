@@ -28,6 +28,9 @@
 		<Item Name="LM79 Stabilization.vi" Type="VI" URL="../LM79 Stabilization.vi"/>
 		<Item Name="Stabilization Naked Sphere FGV.vi" Type="VI" URL="../Stabilization Naked Sphere FGV.vi"/>
 		<Item Name="Stabilization Insulated Sphere FGV.vi" Type="VI" URL="../Stabilization Insulated Sphere FGV.vi"/>
+		<Item Name="Timing.vi" Type="VI" URL="../Timing.vi"/>
+		<Item Name="timing and stabilization test.vi" Type="VI" URL="../timing and stabilization test.vi"/>
+		<Item Name="Timing FGV.vi" Type="VI" URL="../Timing FGV.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
