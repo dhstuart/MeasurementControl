@@ -19,6 +19,7 @@
 		<Item Name="Yokogawa.lvlib" Type="Library" URL="../../YokogawaPZ4000/Yokogawa.lvlib"/>
 		<Item Name="Metadata.lvlib" Type="Library" URL="../controls/Metadata.lvlib"/>
 		<Item Name="AvaSpec.lvlib" Type="Library" URL="../../avantesSpectrometer/AvaSpec.lvlib"/>
+		<Item Name="Data Trends.lvlib" Type="Library" URL="../Data Trends/Data Trends.lvlib"/>
 		<Item Name="AvaSpec Control.vi" Type="VI" URL="../AvaSpec Control.vi"/>
 		<Item Name="Color Parameters.ctl" Type="VI" URL="../Color Parameters.ctl"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer/Timer.vi"/>
@@ -127,13 +128,13 @@
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
-				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="IRRAD input parameters.ctl" Type="VI" URL="../../avantesSpectrometer/IRRAD input parameters.ctl"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../../../../../../AVSIRRAD/Examples/Labview/build/AVSirrad.dll"/>
 			<Item Name="Stabilization.ctl" Type="VI" URL="../../MR 16 teardown/MR16TestStandDAQ/Controls/Stabilization.ctl"/>
+			<Item Name="Flicker Control.vi" Type="VI" URL="../Flicker Control.vi"/>
+			<Item Name="Timing and Stabilization.lvlib" Type="Library" URL="../Timing and Stabilization.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
