@@ -38,6 +38,9 @@
 		<Item Name="Instrument List.vi" Type="VI" URL="../Instrument List.vi"/>
 		<Item Name="Exit Open Instruments.vi" Type="VI" URL="../Exit Open Instruments.vi"/>
 		<Item Name="Instrument Control Switches.ctl" Type="VI" URL="../Instrument Control Switches.ctl"/>
+		<Item Name="Read CSV.vi" Type="VI" URL="../Read CSV.vi"/>
+		<Item Name="Call Chain (Single String).vi" Type="VI" URL="../Call Chain (Single String).vi"/>
+		<Item Name="Time Left.ctl" Type="VI" URL="../../Time Left.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -287,6 +290,7 @@
 				<Item Name="WDT Number of Waveform Samples I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I32.vi"/>
 				<Item Name="WDT Number of Waveform Samples I8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I8.vi"/>
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../../../../../../AVSIRRAD/Examples/Labview/build/AVSirrad.dll"/>
