@@ -41,6 +41,8 @@
 		<Item Name="Read CSV.vi" Type="VI" URL="../Read CSV.vi"/>
 		<Item Name="Call Chain (Single String).vi" Type="VI" URL="../Call Chain (Single String).vi"/>
 		<Item Name="Time Left.ctl" Type="VI" URL="../../Time Left.ctl"/>
+		<Item Name="Write Stabilization Data.vi" Type="VI" URL="../Write Stabilization Data.vi"/>
+		<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
