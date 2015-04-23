@@ -20,6 +20,7 @@
 		<Item Name="Metadata.lvlib" Type="Library" URL="../controls/Metadata.lvlib"/>
 		<Item Name="AvaSpec.lvlib" Type="Library" URL="../../avantesSpectrometer/AvaSpec.lvlib"/>
 		<Item Name="Data Trends.lvlib" Type="Library" URL="../Data Trends/Data Trends.lvlib"/>
+		<Item Name="Timing and Stabilization.lvlib" Type="Library" URL="../Timing and Stabilization.lvlib"/>
 		<Item Name="AvaSpec Control.vi" Type="VI" URL="../AvaSpec Control.vi"/>
 		<Item Name="Color Parameters.ctl" Type="VI" URL="../Color Parameters.ctl"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer/Timer.vi"/>
@@ -43,6 +44,8 @@
 		<Item Name="Time Left.ctl" Type="VI" URL="../../Time Left.ctl"/>
 		<Item Name="Write Stabilization Data.vi" Type="VI" URL="../Write Stabilization Data.vi"/>
 		<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
+		<Item Name="Analyzer Choice.ctl" Type="VI" URL="../Analyzer Choice.ctl"/>
+		<Item Name="Flicker Control.vi" Type="VI" URL="../Flicker Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -296,9 +299,6 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../../../../../../AVSIRRAD/Examples/Labview/build/AVSirrad.dll"/>
-			<Item Name="Stabilization.ctl" Type="VI" URL="../../MR 16 teardown/MR16TestStandDAQ/Controls/Stabilization.ctl"/>
-			<Item Name="Flicker Control.vi" Type="VI" URL="../Flicker Control.vi"/>
-			<Item Name="Timing and Stabilization.lvlib" Type="Library" URL="../Timing and Stabilization.lvlib"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
