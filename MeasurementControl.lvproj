@@ -15,10 +15,10 @@
 			<Item Name="MeasurementControl Message Queue.lvlib" Type="Library" URL="../MeasurementControl Message Queue Folder/MeasurementControl Message Queue.lvlib"/>
 		</Item>
 		<Item Name="MeasurementControl - Main.vi" Type="VI" URL="../MeasurementControl - Main.vi"/>
+		<Item Name="AvaSpec.lvlib" Type="Library" URL="../../avantesSpectrometer/AvaSpec.lvlib"/>
 		<Item Name="Cal Inst.lvlib" Type="Library" URL="../../CaliforniaInstrumentsIxSeries/Cal Inst.lvlib"/>
 		<Item Name="Yokogawa.lvlib" Type="Library" URL="../../YokogawaPZ4000/Yokogawa.lvlib"/>
 		<Item Name="Metadata.lvlib" Type="Library" URL="../controls/Metadata.lvlib"/>
-		<Item Name="AvaSpec.lvlib" Type="Library" URL="../../avantesSpectrometer/AvaSpec.lvlib"/>
 		<Item Name="Data Trends.lvlib" Type="Library" URL="../Data Trends/Data Trends.lvlib"/>
 		<Item Name="Timing and Stabilization.lvlib" Type="Library" URL="../Timing and Stabilization.lvlib"/>
 		<Item Name="AvaSpec Control.vi" Type="VI" URL="../AvaSpec Control.vi"/>
@@ -46,6 +46,9 @@
 		<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
 		<Item Name="Analyzer Choice.ctl" Type="VI" URL="../Analyzer Choice.ctl"/>
 		<Item Name="Flicker Control.vi" Type="VI" URL="../Flicker Control.vi"/>
+		<Item Name="Metadata FGV.vi" Type="VI" URL="../Metadata FGV.vi"/>
+		<Item Name="Set Metadata.vi" Type="VI" URL="../Set Metadata.vi"/>
+		<Item Name="Metadata Control.ctl" Type="VI" URL="../Metadata Control.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -296,6 +299,8 @@
 				<Item Name="WDT Number of Waveform Samples I8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I8.vi"/>
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../../../../../../AVSIRRAD/Examples/Labview/build/AVSirrad.dll"/>

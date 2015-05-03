@@ -10,7 +10,7 @@
 <Refnum>
 <Name>VISA resource name</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>GPIB0::5::INSTR</Val>
 </Refnum>
 <U16>
 <Name>Mode (0: Normal) </Name>
@@ -33,7 +33,7 @@
 <NumElts>3</NumElts>
 <U16>
 <Name>A Range (2)</Name>
-<Val>0</Val>
+<Val>2</Val>
 </U16>
 <U16>
 <Name>A Terminal (0: 5A)</Name>
@@ -46,14 +46,14 @@
 </Cluster>
 <U16>
 <Name>Observation Time</Name>
-<Val>0</Val>
+<Val>10</Val>
 </U16>
 <Cluster>
 <Name>Modules on/off</Name>
 <NumElts>4</NumElts>
 <Boolean>
 <Name>Module 1</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Module 2</Name>
