@@ -37,7 +37,7 @@
 		<Item Name="Destroy User Event - Stop.vi" Type="VI" URL="../Destroy User Event - Stop.vi"/>
 		<Item Name="Fire User Event - Stop.vi" Type="VI" URL="../Fire User Event - Stop.vi"/>
 		<Item Name="Instrument List.vi" Type="VI" URL="../Instrument List.vi"/>
-		<Item Name="Exit Open Instruments.vi" Type="VI" URL="../Exit Open Instruments.vi"/>
+		<Item Name="Send to Open Instruments.vi" Type="VI" URL="../Send to Open Instruments.vi"/>
 		<Item Name="Instrument Control Switches.ctl" Type="VI" URL="../Instrument Control Switches.ctl"/>
 		<Item Name="Read CSV.vi" Type="VI" URL="../Read CSV.vi"/>
 		<Item Name="Call Chain (Single String).vi" Type="VI" URL="../Call Chain (Single String).vi"/>
@@ -49,6 +49,10 @@
 		<Item Name="Metadata FGV.vi" Type="VI" URL="../Metadata FGV.vi"/>
 		<Item Name="Set Metadata.vi" Type="VI" URL="../Set Metadata.vi"/>
 		<Item Name="Metadata Control.ctl" Type="VI" URL="../Metadata Control.ctl"/>
+		<Item Name="Instrument List all.vi" Type="VI" URL="../Instrument List all.vi"/>
+		<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../Error Handler - Message Handling Loop.vi"/>
+		<Item Name="Custom Error Handler.vi" Type="VI" URL="../Custom Error Handler.vi"/>
+		<Item Name="Metadata Cluster.ctl" Type="VI" URL="../Metadata Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
