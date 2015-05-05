@@ -25,7 +25,7 @@
 </U16>
 <U16>
 <Name>V Range (200)</Name>
-<Val>0</Val>
+<Val>4</Val>
 </U16>
 </Cluster>
 <Cluster>
@@ -33,7 +33,7 @@
 <NumElts>3</NumElts>
 <U16>
 <Name>A Range (2)</Name>
-<Val>2</Val>
+<Val>5</Val>
 </U16>
 <U16>
 <Name>A Terminal (0: 5A)</Name>
