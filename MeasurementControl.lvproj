@@ -41,7 +41,7 @@
 		<Item Name="Instrument Control Switches.ctl" Type="VI" URL="../Instrument Control Switches.ctl"/>
 		<Item Name="Read CSV.vi" Type="VI" URL="../Read CSV.vi"/>
 		<Item Name="Call Chain (Single String).vi" Type="VI" URL="../Call Chain (Single String).vi"/>
-		<Item Name="Time Left.ctl" Type="VI" URL="../../Time Left.ctl"/>
+		<Item Name="Time Left.ctl" Type="VI" URL="../Time Left.ctl"/>
 		<Item Name="Write Stabilization Data.vi" Type="VI" URL="../Write Stabilization Data.vi"/>
 		<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
 		<Item Name="Analyzer Choice.ctl" Type="VI" URL="../Analyzer Choice.ctl"/>
@@ -53,6 +53,8 @@
 		<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../Error Handler - Message Handling Loop.vi"/>
 		<Item Name="Custom Error Handler.vi" Type="VI" URL="../Custom Error Handler.vi"/>
 		<Item Name="Metadata Cluster.ctl" Type="VI" URL="../Metadata Cluster.ctl"/>
+		<Item Name="metadata grab based on inst ctrl states.vi" Type="VI" URL="../metadata grab based on inst ctrl states.vi"/>
+		<Item Name="Metadata check for empty fields.vi" Type="VI" URL="../Metadata check for empty fields.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
