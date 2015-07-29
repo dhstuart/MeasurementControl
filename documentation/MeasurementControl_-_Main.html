@@ -1,0 +1,332 @@
+<HTML>
+<HEAD>
+<TITLE>MeasurementControl - Main.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="MeasurementControl _ Main.vi"></A><H2>MeasurementControl - Main.vi</H2>
+<P>This VI provides control and an interface the various instruments used to collect data in the CLTC measurement lab. It is built based on the queued message handler template. It functions by sending commands to the queues of the various instrument VIs that are dynamically launched for a particular test.</P>
+<P><IMG SRC="MeasurementControl_-_Mainc.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Mainp.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind1.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind2.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind3.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind4.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind5.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind6.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind7.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind8.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind9.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind10.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind11.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind12.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind13.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind14.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind15.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind16.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind17.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind18.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind19.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind20.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind21.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind22.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind23.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind24.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind25.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind26.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind27.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind28.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind29.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind30.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind31.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind32.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind33.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind34.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind35.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind36.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind37.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind38.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind39.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind40.png" ALT="MeasurementControl - Main.vi"></P>
+<P><IMG SRC="MeasurementControl_-_Maind41.png" ALT="MeasurementControl - Main.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Error_Handler_-_Message_Handling_Loopi.png" ALT="Error Handler - Message Handling Loop.vi"></P>
+</TD>
+<TD>
+<B><P>Error Handler - Message Handling Loop.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Error Handler - Message Handling Loop.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Timing_and_Stabilization_lvlib_Timingi.png" ALT="Timing and Stabilization.lvlib:Timing.vi"></P>
+</TD>
+<TD>
+<B><P>Timing and Stabilization.lvlib:Timing.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Timing and Stabilization\Timing.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Measurement_Control_User_Event_-_Stop_lvlib_Create_User_Event_-_Stopi.png" ALT="Measurement Control User Event - Stop.lvlib:Create User Event - Stop.vi"></P>
+</TD>
+<TD>
+<B><P>Measurement Control User Event - Stop.lvlib:Create User Event - Stop.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Create User Event - Stop.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Instrument_Launcher_lvlib_Instrument_Listi.png" ALT="Instrument Launcher.lvlib:Instrument List.vi"></P>
+</TD>
+<TD>
+<B><P>Instrument Launcher.lvlib:Instrument List.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Instrument List.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="MeasurementControl_Message_Queue_lvlib_Obtain_Message_Queuei.png" ALT="MeasurementControl Message Queue.lvlib:Obtain Message Queue.vi"></P>
+</TD>
+<TD>
+<B><P>MeasurementControl Message Queue.lvlib:Obtain Message Queue.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\MeasurementControl Message Queue Folder\Obtain Message Queue.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Timing_and_Stabilization_lvlib_Stabilizationi.png" ALT="Timing and Stabilization.lvlib:Stabilization.vi"></P>
+</TD>
+<TD>
+<B><P>Timing and Stabilization.lvlib:Stabilization.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Timing and Stabilization\Stabilization.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Custom_Error_Handleri.png" ALT="Custom Error Handler.vi"></P>
+</TD>
+<TD>
+<B><P>Custom Error Handler.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Custom Error Handler.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Time_Leftctli.png" ALT="Time Left.ctl"></P>
+</TD>
+<TD>
+<B><P>Time Left.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Time Left.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="MeasurementControl_Message_Queue_lvlib_Create_All_Message_Queuesi.png" ALT="MeasurementControl Message Queue.lvlib:Create All Message Queues.vi"></P>
+</TD>
+<TD>
+<B><P>MeasurementControl Message Queue.lvlib:Create All Message Queues.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\MeasurementControl Message Queue Folder\Create All Message Queues.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Tab_Controlctli.png" ALT="Tab Control.ctl"></P>
+</TD>
+<TD>
+<B><P>Tab Control.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\controls\Tab Control.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="MeasurementControl_Message_Queue_lvlib_Enqueue_Messagei.png" ALT="MeasurementControl Message Queue.lvlib:Enqueue Message.vi"></P>
+</TD>
+<TD>
+<B><P>MeasurementControl Message Queue.lvlib:Enqueue Message.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\MeasurementControl Message Queue Folder\Enqueue Message.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Timing_and_Stabilization_lvlib_Stabilizationctli.png" ALT="Timing and Stabilization.lvlib:Stabilization.ctl"></P>
+</TD>
+<TD>
+<B><P>Timing and Stabilization.lvlib:Stabilization.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Timing and Stabilization\Stabilization.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Analyzer_Choicectli.png" ALT="Analyzer Choice.ctl"></P>
+</TD>
+<TD>
+<B><P>Analyzer Choice.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Analyzer Choice.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Instrument_Launcher_lvlib_Cal_Inst_Controli.png" ALT="Instrument Launcher.lvlib:Cal Inst Control.vi"></P>
+</TD>
+<TD>
+<B><P>Instrument Launcher.lvlib:Cal Inst Control.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Cal Inst Control.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="MeasurementControl_Message_Queue_lvlib_Dequeue_Master_and_Locali.png" ALT="MeasurementControl Message Queue.lvlib:Dequeue Master and Local.vi"></P>
+</TD>
+<TD>
+<B><P>MeasurementControl Message Queue.lvlib:Dequeue Master and Local.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\MeasurementControl Message Queue Folder\Dequeue Master and Local.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Acquisition_lvlib_Measurement_Typectli.png" ALT="AvaSpec.lvlib:AvaSpec Acquisition.lvlib:Measurement Type.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Acquisition.lvlib:Measurement Type.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Settings\Measurement Type.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Simple_Error_Handleri.png" ALT="Simple Error Handler.vi"></P>
+</TD>
+<TD>
+<B><P>Simple Error Handler.vi</P>
+</B><P>C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Simple Error Handler.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="MeasurementControl_Message_Queue_lvlib_Enqueue_Message_(Single)i.png" ALT="MeasurementControl Message Queue.lvlib:Enqueue Message (Single).vi"></P>
+</TD>
+<TD>
+<B><P>MeasurementControl Message Queue.lvlib:Enqueue Message (Single).vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\MeasurementControl Message Queue Folder\Enqueue Message (Single).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="MeasurementControl_Message_Queue_lvlib_Enqueue_Message_(Array)i.png" ALT="MeasurementControl Message Queue.lvlib:Enqueue Message (Array).vi"></P>
+</TD>
+<TD>
+<B><P>MeasurementControl Message Queue.lvlib:Enqueue Message (Array).vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\MeasurementControl Message Queue Folder\Enqueue Message (Array).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Instrument_Control_Switchesctli.png" ALT="Instrument Control Switches.ctl"></P>
+</TD>
+<TD>
+<B><P>Instrument Control Switches.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Instrument Control Switches.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Metadata_lvlib_Set_Metadatai.png" ALT="Metadata.lvlib:Set Metadata.vi"></P>
+</TD>
+<TD>
+<B><P>Metadata.lvlib:Set Metadata.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Set Metadata.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="MeasurementControl_Message_Queue_lvlib_Send_to_Open_Instrumentsi.png" ALT="MeasurementControl Message Queue.lvlib:Send to Open Instruments.vi"></P>
+</TD>
+<TD>
+<B><P>MeasurementControl Message Queue.lvlib:Send to Open Instruments.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Send to Open Instruments.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Timing_and_Stabilization_lvlib_Stabilization_status_updatei.png" ALT="Timing and Stabilization.lvlib:Stabilization status update.vi"></P>
+</TD>
+<TD>
+<B><P>Timing and Stabilization.lvlib:Stabilization status update.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Stabilization status update.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_Sphere_Indicatorctli.png" ALT="AvaSpec.lvlib:Sphere Indicator.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:Sphere Indicator.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Acquisition\Sphere Indicator.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Instrument_Launcher_lvlib_Flicker_Controli.png" ALT="Instrument Launcher.lvlib:Flicker Control.vi"></P>
+</TD>
+<TD>
+<B><P>Instrument Launcher.lvlib:Flicker Control.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Flicker Control.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Color_Parametersctli.png" ALT="AvaSpec.lvlib:AvaSpec Color Parameters.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Color Parameters.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Acquisition\AvaSpec Color Parameters.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Instrument_Launcher_lvlib_AvaSpec_Controli.png" ALT="Instrument Launcher.lvlib:AvaSpec Control.vi"></P>
+</TD>
+<TD>
+<B><P>Instrument Launcher.lvlib:AvaSpec Control.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\AvaSpec Control.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Measurement_Control_User_Event_-_Stop_lvlib_Destroy_User_Event_-_Stopi.png" ALT="Measurement Control User Event - Stop.lvlib:Destroy User Event - Stop.vi"></P>
+</TD>
+<TD>
+<B><P>Measurement Control User Event - Stop.lvlib:Destroy User Event - Stop.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Destroy User Event - Stop.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Instrument_Launcher_lvlib_Yokogawa_Controli.png" ALT="Instrument Launcher.lvlib:Yokogawa Control.vi"></P>
+</TD>
+<TD>
+<B><P>Instrument Launcher.lvlib:Yokogawa Control.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Yokogawa Control.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Measurement_Control_User_Event_-_Stop_lvlib_Fire_User_Event_-_Stopi.png" ALT="Measurement Control User Event - Stop.lvlib:Fire User Event - Stop.vi"></P>
+</TD>
+<TD>
+<B><P>Measurement Control User Event - Stop.lvlib:Fire User Event - Stop.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\MeasurementControl\Fire User Event - Stop.vi</P>
+</TD>
+</TR>
+</Table>
+<P>&quot;MeasurementControl - Main.vi History&quot;</P>
+<P>Current Revision:   166</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="MeasurementControl_-_Mainh.png" ALT="MeasurementControl - Main.vi"></P>
+</BODY>
+</HTML>

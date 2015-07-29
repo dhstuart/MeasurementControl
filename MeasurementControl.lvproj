@@ -11,56 +11,33 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MeasurementControl Message Queue Folder" Type="Folder">
-			<Item Name="MeasurementControl Message Queue.lvlib" Type="Library" URL="../MeasurementControl Message Queue Folder/MeasurementControl Message Queue.lvlib"/>
+		<Item Name="Support VIs" Type="Folder">
+			<Item Name="Measurement Control User Event - Stop.lvlib" Type="Library" URL="../Support/Measurement Control User Event - Stop.lvlib"/>
+			<Item Name="MeasurementControl Message Queue.lvlib" Type="Library" URL="../Support/MeasurementControl Message Queue Folder/MeasurementControl Message Queue.lvlib"/>
+			<Item Name="Call Chain (Single String).vi" Type="VI" URL="../Call Chain (Single String).vi"/>
+			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../Support/Error Handler - Message Handling Loop.vi"/>
+			<Item Name="Custom Error Handler.vi" Type="VI" URL="../Support/Custom Error Handler.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
-			<Item Name="Color Parameters.ctl" Type="VI" URL="../Color Parameters.ctl"/>
+			<Item Name="Color Parameters.ctl" Type="VI" URL="../controls/Color Parameters.ctl"/>
 			<Item Name="Timer Command Control.ctl" Type="VI" URL="../Timer/Timer Command Control.ctl"/>
-			<Item Name="Instrument Control Switches.ctl" Type="VI" URL="../Instrument Control Switches.ctl"/>
-			<Item Name="Analyzer Choice.ctl" Type="VI" URL="../Analyzer Choice.ctl"/>
-			<Item Name="Metadata Control.ctl" Type="VI" URL="../Metadata Control.ctl"/>
-			<Item Name="Metadata Cluster.ctl" Type="VI" URL="../Metadata Cluster.ctl"/>
+			<Item Name="Instrument Control Switches.ctl" Type="VI" URL="../controls/Instrument Control Switches.ctl"/>
+			<Item Name="Analyzer Choice.ctl" Type="VI" URL="../controls/Analyzer Choice.ctl"/>
+			<Item Name="Metadata Control.ctl" Type="VI" URL="../Metadata/Metadata Control.ctl"/>
+			<Item Name="Metadata Cluster.ctl" Type="VI" URL="../Metadata/Metadata Cluster.ctl"/>
+			<Item Name="Time Left.ctl" Type="VI" URL="../controls/Time Left.ctl"/>
+			<Item Name="Tab Control.ctl" Type="VI" URL="../controls/Tab Control.ctl"/>
 		</Item>
-		<Item Name="temp metadata folder" Type="Folder">
-			<Item Name="Metadata FGV.vi" Type="VI" URL="../Metadata FGV.vi"/>
-			<Item Name="Set Metadata.vi" Type="VI" URL="../Set Metadata.vi"/>
-			<Item Name="metadata grab based on inst ctrl states.vi" Type="VI" URL="../metadata grab based on inst ctrl states.vi"/>
-			<Item Name="Metadata check for empty fields.vi" Type="VI" URL="../Metadata check for empty fields.vi"/>
-		</Item>
-		<Item Name="Instrument launcher VIs" Type="Folder">
-			<Item Name="AvaSpec Control.vi" Type="VI" URL="../AvaSpec Control.vi"/>
-			<Item Name="Yokogawa Control.vi" Type="VI" URL="../Yokogawa Control.vi"/>
-			<Item Name="Cal Inst Control.vi" Type="VI" URL="../Cal Inst Control.vi"/>
-			<Item Name="Flicker Control.vi" Type="VI" URL="../Flicker Control.vi"/>
+		<Item Name="Instrument Libraries" Type="Folder">
+			<Item Name="AvaSpec.lvlib" Type="Library" URL="../../avantesSpectrometer/AvaSpec.lvlib"/>
+			<Item Name="Cal Inst.lvlib" Type="Library" URL="../../CaliforniaInstrumentsIxSeries/Cal Inst.lvlib"/>
+			<Item Name="Yokogawa.lvlib" Type="Library" URL="../../YokogawaPZ4000/Yokogawa.lvlib"/>
+			<Item Name="Instrument Launcher.lvlib" Type="Library" URL="../Launcher/Instrument Launcher.lvlib"/>
 		</Item>
 		<Item Name="MeasurementControl - Main.vi" Type="VI" URL="../MeasurementControl - Main.vi"/>
-		<Item Name="AvaSpec.lvlib" Type="Library" URL="../../avantesSpectrometer/AvaSpec.lvlib"/>
-		<Item Name="Cal Inst.lvlib" Type="Library" URL="../../CaliforniaInstrumentsIxSeries/Cal Inst.lvlib"/>
-		<Item Name="Yokogawa.lvlib" Type="Library" URL="../../YokogawaPZ4000/Yokogawa.lvlib"/>
-		<Item Name="Metadata.lvlib" Type="Library" URL="../controls/Metadata.lvlib"/>
+		<Item Name="Metadata.lvlib" Type="Library" URL="../Metadata/Metadata.lvlib"/>
 		<Item Name="Data Trends.lvlib" Type="Library" URL="../Data Trends/Data Trends.lvlib"/>
-		<Item Name="Timing and Stabilization.lvlib" Type="Library" URL="../Timing and Stabilization.lvlib"/>
-		<Item Name="Timer.vi" Type="VI" URL="../Timer/Timer.vi"/>
-		<Item Name="LM79 Stabilization.vi" Type="VI" URL="../LM79 Stabilization.vi"/>
-		<Item Name="Stabilization Naked Sphere FGV.vi" Type="VI" URL="../Stabilization Naked Sphere FGV.vi"/>
-		<Item Name="Stabilization Insulated Sphere FGV.vi" Type="VI" URL="../Stabilization Insulated Sphere FGV.vi"/>
-		<Item Name="Timing.vi" Type="VI" URL="../Timing.vi"/>
-		<Item Name="timing and stabilization test.vi" Type="VI" URL="../timing and stabilization test.vi"/>
-		<Item Name="Timing FGV.vi" Type="VI" URL="../Timing FGV.vi"/>
-		<Item Name="Create User Event - Stop.vi" Type="VI" URL="../Create User Event - Stop.vi"/>
-		<Item Name="Destroy User Event - Stop.vi" Type="VI" URL="../Destroy User Event - Stop.vi"/>
-		<Item Name="Fire User Event - Stop.vi" Type="VI" URL="../Fire User Event - Stop.vi"/>
-		<Item Name="Instrument List.vi" Type="VI" URL="../Instrument List.vi"/>
-		<Item Name="Send to Open Instruments.vi" Type="VI" URL="../Send to Open Instruments.vi"/>
-		<Item Name="Read CSV.vi" Type="VI" URL="../Read CSV.vi"/>
-		<Item Name="Call Chain (Single String).vi" Type="VI" URL="../Call Chain (Single String).vi"/>
-		<Item Name="Time Left.ctl" Type="VI" URL="../Time Left.ctl"/>
-		<Item Name="Write Stabilization Data.vi" Type="VI" URL="../Write Stabilization Data.vi"/>
-		<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
-		<Item Name="Instrument List all.vi" Type="VI" URL="../Instrument List all.vi"/>
-		<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../Error Handler - Message Handling Loop.vi"/>
-		<Item Name="Custom Error Handler.vi" Type="VI" URL="../Custom Error Handler.vi"/>
+		<Item Name="Timing and Stabilization.lvlib" Type="Library" URL="../Timing and Stabilization/Timing and Stabilization.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -97,7 +74,6 @@
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -320,8 +296,6 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Sphere Indicator.ctl" Type="VI" URL="../../CaliforniaInstrumentsIxSeries/Sphere Indicator.ctl"/>
-			<Item Name="Tab Control.ctl" Type="VI" URL="../controls/Tab Control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
